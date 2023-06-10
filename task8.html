@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+          border: 1px solid black;             
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td:nth-child(1) {
+            text-decoration: solid;
+        }
+    </style>    
+</head>
+<body>
+    <table style="position: relative; left: 320px; top: 50px;">
+        <tr>
+          <td>FirstName</td>
+          <td>  <input type="text" id="fname" name="fname" style="width: 500px;"></td>
+        </tr>
+        <tr>
+            <td>LastName</td>
+            <td>  <input type="text" id="fname" name="fname" style="width: 500px;"></td>
+          </tr>
+        <tr>
+            <td>Email</td>
+            <td>  <input type="email" id="fname" name="fname" style="width: 500px;"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>  <input type="password" id="fname" name="fname" style="width: 500px;"></td>
+        </tr>
+        <tr>
+            <td>Re-Password</td>
+            <td>  <input type="password" id="fname" name="fname" style="width: 500px;"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Gender</td>
+            <td>  <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">Male</label>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td>  <input type="number" id="fname" name="fname" style="width: 500px;"></td>
+          </tr>
+          <tr>
+                <td style="height: 100px;">Address</td>
+                <td>  <input type="text" id="fname" name="fname" style="height: 100px;width: 500px;"></td>
+          </tr>
+          <tr>
+            <td>State</td>
+            <td>  <input type="text" id="fname" name="fname" style="width: 500px;"></td>
+          </tr>
+          <tr>
+            <td><label for="mySelect">Country:</label></td>
+            <td>  <select id="mySelect" name="mySelect">
+                <option value="option1">India</option>
+                <option value="option2">China</option>
+                <option value="option3">Canada</option>
+            </select>
+          </td>
+          </tr>
+
+          <tr>
+            <td>  <label for="cnt">Languages Known : </label></td>
+            <td>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> ENGLISH</label>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> TAMIL</label>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> KANNADAM</label><br><br>              
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> hereby i declare all the given details are true</label>
+            </td>
+          </tr>        
+    </table>
+    <input type="submit" value="Register" style="position: relative;left: 600px;top: 70px;">
+
+</body>
+</html>
